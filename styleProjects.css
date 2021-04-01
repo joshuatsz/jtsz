@@ -1,0 +1,42 @@
+#header {
+    background-color: #12495c;
+    color: white;
+    font-style: italic;
+    text-align: center
+}
+#container {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(207, 207, 207);
+}
+#content {
+    background-color:rgb(207, 207, 207);
+    padding: 7px;
+}
+#nav {
+    width: 480px;
+    float: left;
+}
+#main {
+    width: 900px;
+    float: right;
+    
+}
+#footer {
+    clear: both;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: large;
+}
+h2 {
+    text-decoration: underline;
+    font-size: x-large;
+    font-style: italic;
+}
+header {
+    font-size: large;
+    text-decoration: underline;
+}
