@@ -1,0 +1,121 @@
+<html>
+
+    <head>
+        <title>Chameleon Rubbish Grabber</title>
+        <link rel="stylesheet" type="text/css" href="styleChameleon Grabber.css">
+    </head>
+
+<body>
+    
+<div id="container">
+
+     <div id="header">
+        <h1>Projects</h1>
+     </div>
+
+    <div id="content">
+
+        <div id="nav">
+
+            <h2>Navigation</h2>
+            <ul>
+             <li><a href="Home.html">Home</a></li>
+
+             <li><a class="selected" href="About.html">About</a></li>
+         
+            </ul>
+
+            <h3>Projects list</h3>
+            <ul>
+             <li><a href="Chameleon Grabber.html">Chameleon Grabber</a></li>
+
+             <li><a href="Bottle Collector.html">Autonoumous Bottle Collector</a></li>
+
+             <li><a href="SIP.html">CountOnMe!</a></li>
+
+             <li><a href="TIP.html">Snailed It!</a></li>
+            </ul>
+
+        </div>
+      
+
+        <div id="main">
+            <h2>Chameleon Rubbish Grabber</h2>
+
+            <header>Concept</header>
+            <p>
+                This project aims to solve urbanization problems through the use of biomimicry. 
+                Our group plans to mimic the chameleon and use this mimicry to ease and improve the working conditions for our cleaners who mostly consists of the elderly. 
+                Since our design mimics the chameleon, more specifically the tongue, it is able to reach out and grab items from a huge distance where the items may be out of reach.
+            </p>
+            <img src="Arduino Chameleon grabber.png" width="700" height="400"><img src="initial concept for rubbish picker (2).png" width="700" height="400"><img src="TinkerCad design Chameleon grabber.png" width="700" height="400">
+
+            <header>Implementation</header>
+            <p>
+                Several different softwares and hardwares are used to design and build the project. The software used are the Arduino Programming app, Fusion360 and TinkerCad.
+            </p>
+            <img src="TinkerCad design Chameleon grabber.png" width="500" height="300"><img src="Fusion360 design (2).png" width="500" height="300"><img src="Arduino Chameleon grabber.png" width="500" height="300">
+
+            <p>
+                The hardwares used are the Arduino Uno board, A4988 Stepper Driver, Servo motor and 2 stepper motors.
+            </p>
+            <img src="Hardware Chameleon Grabber.png" width="600" height="400">
+
+            <header>Testing & Results</header>
+            <p>
+                Testing of the servo motor and stepper motor and the Arduino code for the motors as well. 
+            </p>
+            <video src="ServoMotor testing.mp4" controls width="700" height="600"></video>
+            <video src="Final result (1).mp4" controls width="700" height="600"></video>
+            <p>
+                After testing out the Arduino code for the servo motor and stepper motors, the next step will be combining both codes to see if the servo motor and stepper motors can work simultaneously with one another.
+            </p>
+            <video src="Testing.mp4" controls width="700" height="600"></video>
+            <p>
+                The final look of the prototype which is similar to the 3D design done using Fusion360 and TinkerCad.
+            </p>
+            <img src="Result.jpeg" width="500" height="300">
+
+            <header>Conclusion</header>
+            <p>
+                The team has learnt that certain urbanization problems can be solved using biomimicry. For this project, our team have came out with an idea which aims to tackle to litter problem in Singapore and to also 
+                make the works of our cleaners easier. The team have met several problems regarding
+            </p>
+            <ul>
+                <li>The coding for the servo motor and stepper motors</li> 
+                <p>
+                    The coding for the servo motor is that it does not allow the servo motor to reach a certain angle that enables the claw to close, 
+                    and the coding for the stepper motors is that it only allows the stepper motor to turn in one direction.
+                </p>
+
+                <li>Finding a suitable power source (Not shown in video)</li>
+                <p>
+                    The power source used did not produce enough voltage for the A4988 stepper motor driver and had to rely on power source provided by the lab which is non-portable.
+                </p>
+
+                <li>The retracting of the tape</li> 
+                <p>
+                    The tape is unable to retract back as the tape holder is holding the tape in place and the stepper motor is also producing enough force to pull back the tape.
+                </p>
+
+                <p></p>
+                <video src="Failure vid.mp4" controls width="500" height="400"></video>           
+            </ul>
+            <p>
+                The team managed to solve these problems through trial and error by using different codes which can be found online and mixing them with some of our own codes. The updated code 
+                also produces more toque which helps in retracting the tapes with ease.
+            </p>
+            <p>
+                Through research on the power limitations of the A4988 stepper motor driver as well as the Arduino Uno. 
+                The team has decided to use a rechargable lithium-ion battery [9V, 750mAH] to power up the A4988 stepper motor driver and use a Samsung powerbank to power up the Arduino Uno
+                as the 9V battery produces around 7V to 9V and a current of 750mAh for the driver while the power bank produces enough voltage and current for the arduino board and servo motor.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>   
+
+</body>
+</html>
